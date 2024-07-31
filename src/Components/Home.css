@@ -39,7 +39,6 @@
 .social-icons {
     display: flex; /* Utilise Flexbox pour aligner les icônes */
     justify-content: flex-start; /* Aligne les icônes à gauche */
-    
     gap: 2rem; /* Espace entre les icônes */
     padding: 1rem; /* Ajoute du padding autour des icônes */
     /* Vous pouvez ajouter d'autres propriétés si nécessaire */

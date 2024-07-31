@@ -12,8 +12,11 @@
 }
 
 .skills h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+    font-size: 4rem;
+}
+
+.language{
+    margin-top: 100px;
 }
 
 .icon-wrapper {
@@ -29,4 +32,36 @@
   .icon-wrapper canvas {
     width: 100%; /* Ensure canvas takes full width of wrapper */
     height: 100%; /* Ensure canvas takes full height of wrapper */
+}
+
+.os {
+    margin-top: 10%;
+    padding: 10%;
+    border-top: white solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+}
+.lottie-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
   }
+  .lottie-animation {
+    width: 50vw !important;
+    height: auto !important;
+    max-width: 400px;
+  }
+  @media (max-width: 800px) {
+    .os {
+        flex-direction: column; /* Change la direction des éléments sur les écrans plus petits */
+        gap: 1rem; /* Réduit l'écart entre les éléments */
+    }
+
+    .lottie-animation {
+        width: 80vw; /* Ajuste la taille pour les écrans plus petits */
+    }
+}

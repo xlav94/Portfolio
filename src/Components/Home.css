@@ -1,0 +1,47 @@
+.common-background {
+    background-image: url('../assets/bg.jpg'); /* Chemin vers l'image de fond */
+    background-size: cover; /* Couvre tout l'élément */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Ne répète pas l'image */
+    background-attachment: fixed; /* Fixe l'image par rapport à la fenêtre de visualisation */
+    /* Vous pouvez également ajouter d'autres propriétés ici si nécessaire */
+  }
+
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh; /* La section prend toute la hauteur de la fenêtre */
+    background-color: #f8f9fa; /* Couleur de fond */
+  }
+  
+  .description {
+    text-align: left; /* Aligne le texte à gauche */
+    display: flex;
+    flex-direction: column; /* Aligne les enfants en colonne */
+    align-items: flex-start; /* Aligne les enfants à gauche */
+    margin-left: 20%;
+  }
+
+  h1 {
+    font-size: 2rem; /* Ajustez la taille du texte */
+    color: white; /* Couleur du texte */
+    margin: 0; /* Supprime la marge autour du texte */
+    display: inline; /* Assure que le texte et le curseur sont sur la même ligne */
+  }
+  
+  
+  p {
+    font-size: 1.5rem;
+    color: white;
+  }
+
+.social-icons {
+    display: flex; /* Utilise Flexbox pour aligner les icônes */
+    justify-content: flex-start; /* Aligne les icônes à gauche */
+    
+    gap: 2rem; /* Espace entre les icônes */
+    padding: 1rem; /* Ajoute du padding autour des icônes */
+    /* Vous pouvez ajouter d'autres propriétés si nécessaire */
+    margin-left: 20%;
+  }

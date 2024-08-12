@@ -12,7 +12,7 @@
     flex-direction: column;
     justify-content: center;
     height: 100vh; /* La section prend toute la hauteur de la fenêtre */
-    background-color: #f8f9fa; /* Couleur de fond */
+  
   }
   
   .description {
@@ -40,7 +40,28 @@
     display: flex; /* Utilise Flexbox pour aligner les icônes */
     justify-content: flex-start; /* Aligne les icônes à gauche */
     gap: 2rem; /* Espace entre les icônes */
-    padding: 1rem; /* Ajoute du padding autour des icônes */
     /* Vous pouvez ajouter d'autres propriétés si nécessaire */
     margin-left: 20%;
+    
+  }
+  
+  
+.cv {
+  display: flex; /* Utilise Flexbox pour aligner les icônes */
+  justify-content: flex-start; /* Aligne les icônes à gauche */
+  gap: 2rem; /* Espace entre les icônes */
+  padding: 1rem; /* Ajoute du padding autour des icônes */
+  /* Vous pouvez ajouter d'autres propriétés si nécessaire */
+  margin-left: 20%;
+  }
+  
+  .cvButton {
+    
+    padding: 10px 40px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 15px;
   }

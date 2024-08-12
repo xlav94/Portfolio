@@ -44,6 +44,8 @@
     align-items: center;
     gap: 6rem;
 }
+
+
 .lottie-container {
     display: flex;
     justify-content: center;
@@ -55,8 +57,21 @@
     height: auto !important;
     max-width: 400px;
   }
+
+  .os3d{
+    display: flex;
+    justify-content: space-around; /* Centrer les éléments et ajouter de l'espace entre eux */
+    flex-direction: row;
+    align-items: center;
+    height: 100%; /* Ajustez selon vos besoins */
+    
+  }
   @media (max-width: 800px) {
     .os {
+        flex-direction: column; /* Change la direction des éléments sur les écrans plus petits */
+        gap: 1rem; /* Réduit l'écart entre les éléments */
+    }
+    .os3d{
         flex-direction: column; /* Change la direction des éléments sur les écrans plus petits */
         gap: 1rem; /* Réduit l'écart entre les éléments */
     }

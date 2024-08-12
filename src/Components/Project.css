@@ -1,0 +1,66 @@
+.projects{
+    background-image: url('../assets/bg2.jpg'); /* Chemin vers l'image de fond */
+    background-size: cover; /* Couvre tout l'élément */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Ne répète pas l'image */
+    background-attachment: fixed;;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* La section prend toute la hauteur de la fenêtre */
+}
+
+.projects h1{
+    font-size: 4rem; /* Ajustez la taille du texte */
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne suivante si nécessaire */
+    justify-content: space-around; /* Espace autour des éléments */
+    padding: 20px;
+  }
+  
+  /* Chaque projet individuel */
+  .project {
+    background-color: #fff; /* Couleur de fond blanche pour chaque projet */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère pour l'effet de carte */
+    margin: 20px;
+    padding: 20px;
+    width: 300px; /* Largeur fixe, peut être ajustée */
+    transition: transform 0.3s ease ; /* Transition pour l'effet de survol */
+  }
+  
+  /* Effet de survol pour chaque projet */
+  .project:hover {
+    transform: translateY(-10px); /* Légèrement surélevé au survol */
+  }
+  
+  /* Conteneur d'image */
+  .image img {
+    width: 100%; /* Image prend toute la largeur du conteneur */
+    height: auto; /* Hauteur ajustée automatiquement */
+    border-radius: 10px; /* Coins arrondis */
+    margin-bottom: 15px; /* Espace en bas de l'image */
+  }
+  
+  /* Titre du projet */
+  .titleProject {
+    font-size: 1.5rem; /* Taille de police plus grande pour le titre */
+    font-weight: bold; /* Texte en gras */
+    margin-bottom: 10px; /* Espace en bas du titre */
+  }
+  
+  /* Description du projet */
+  .description {
+    font-size: 1rem; /* Taille de police normale */
+    color: #666; /* Couleur de texte gris */
+    margin-bottom: 15px; /* Espace en bas de la description */
+  }
+  
+  /* Langages utilisés dans le projet */
+  .language {
+    font-size: 0.9rem; /* Taille de police légèrement plus petite */
+    color: #333; /* Couleur de texte sombre */
+  }

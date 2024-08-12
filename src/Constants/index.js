@@ -6,6 +6,9 @@ import git from '../assets/git.png';
 import python from '../assets/python.png';
 import java from '../assets/java.png';
 import bash from '../assets/bash.png';
+import projectBg from '../assets/projectBg.png';
+import tictactoe from '../assets/tictactoe.png';
+import robotix from '../assets/robotix.png';
 
 const technologies = [
     {
@@ -43,4 +46,33 @@ const technologies = [
   
 ];
 
-export {technologies};
+const projectName= [
+  {
+    image: robotix,
+    name: 'Robotix',
+    description: 'App with java',
+    language: 'java'
+  },
+
+  {
+    image: tictactoe,
+    name: 'Tic Tac Toe',
+    description: 'Tic Tac Toe made with React.js',
+    language: 'JavaScript'
+  },
+  {
+    image: projectBg,
+    name: 'website',
+    description: 'App with react.js',
+    language: 'react.js'
+  },
+  {
+    image: projectBg,
+    name: 'website',
+    description: 'App with react.js',
+    language: 'react.js'
+  }
+
+]
+
+export {technologies, projectName};

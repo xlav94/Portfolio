@@ -13,7 +13,7 @@ import  {Canvas, useFrame}  from '@react-three/fiber';
 import CanvasLoader from './Loader'; 
 
 function Model(props) {
-  const { nodes, materials } = useGLTF('/3d/apple.gltf');
+  const { nodes, materials } = useGLTF(`${process.env.PUBLIC_URL}/3d/apple.gltf`);
 
   const ref = useRef();
 

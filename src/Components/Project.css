@@ -23,6 +23,7 @@
   
   /* Chaque projet individuel */
   .project {
+    position: relative;
     background-color: #fff; /* Couleur de fond blanche pour chaque projet */
     border-radius: 10px; /* Coins arrondis */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère pour l'effet de carte */
@@ -63,4 +64,10 @@
   .language {
     font-size: 0.9rem; /* Taille de police légèrement plus petite */
     color: #333; /* Couleur de texte sombre */
+  }
+
+.github-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
   }

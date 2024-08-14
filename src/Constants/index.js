@@ -51,26 +51,30 @@ const projectName= [
     image: robotix,
     name: 'Robotix',
     description: 'App with java',
-    language: 'java'
+    language: 'java',
+    link: ''
   },
 
   {
     image: tictactoe,
     name: 'Tic Tac Toe',
     description: 'Tic Tac Toe made with React.js',
-    language: 'JavaScript'
+    language: 'JavaScript',
+    link: 'https://github.com/xlav94/tictactoe'
   },
   {
     image: projectBg,
     name: 'website',
     description: 'App with react.js',
-    language: 'react.js'
+    language: 'react.js',
+    link: ''
   },
   {
     image: projectBg,
     name: 'website',
     description: 'App with react.js',
-    language: 'react.js'
+    language: 'react.js',
+    link: ''
   }
 
 ]

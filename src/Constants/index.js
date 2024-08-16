@@ -9,6 +9,7 @@ import bash from '../assets/bash.png';
 import projectBg from '../assets/projectBg.png';
 import tictactoe from '../assets/tictactoe.png';
 import robotix from '../assets/robotix.png';
+import word from '../assets/word.png';
 
 const technologies = [
     {
@@ -63,11 +64,11 @@ const projectName= [
     link: 'https://github.com/xlav94/tictactoe'
   },
   {
-    image: projectBg,
-    name: 'website',
+    image: word,
+    name: 'Word Find',
     description: 'App with react.js',
-    language: 'react.js',
-    link: ''
+    language: 'JavaScript',
+    link: 'https://github.com/xlav94/word-find'
   },
   {
     image: projectBg,

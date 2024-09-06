@@ -16,14 +16,14 @@ function Home() {
        <section className='home common-background'>
             <div className='description'>
                 <h1>{nom} <Cursor className='black' /></h1> 
-                <p>Développeur web et mobile</p>
+                <p>Computer Science student at the University of Montreal</p>
             </div>
             <div className='social-icons'>
               <a href="https://github.com/xlav94" target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faGithub} color='white' bounce size='3x' cursor='pointer'/>
+                <FontAwesomeIcon icon={faGithub} color='white' size='3x' cursor='pointer'/>
               </a>
               <a href="https://linkedin.com/in/cedric-guevremont-1289ba2a9" target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faLinkedin} color='white'  bounce size='3x' cursor='pointer'/>
+                <FontAwesomeIcon icon={faLinkedin} color='white' size='3x' cursor='pointer'/>
               </a>
             </div>
             <div className='cv'>

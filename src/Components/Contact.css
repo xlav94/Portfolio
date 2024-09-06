@@ -1,0 +1,51 @@
+.contactContainer {
+    background-color:  #0b0334; /* Couleur de fond sombre pour contraster avec le texte */
+    color: white;
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    text-align: center;
+    padding: 3rem;
+    min-height: 100vh; /* Assure que la section occupe toute la hauteur de l'écran */
+  }
+  
+  .contact {
+    max-width: 600px;
+    margin: 0 auto; /* Centre le contenu horizontalement */
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 6rem;
+  }
+  
+  .contact h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid white;
+  }
+  
+  .contactList {
+    list-style: none; /* Retire les puces de la liste */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contactList li {
+    display: flex;
+    align-items: center; /* Centre verticalement les icônes et le texte */
+    justify-content: center; /* Centre horizontalement les éléments de la liste */
+    font-size: 1.2rem;
+    margin: 2rem 0; /* Espace entre les éléments de la liste */
+  }
+  
+  .contactList li svg {
+    margin-right: 1rem; /* Espace entre l'icône et le texte */
+  }
+
+  .contactList li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .contactList li a:hover {
+    color: grey;
+  }

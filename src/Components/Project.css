@@ -13,6 +13,9 @@
 .projects h1{
     font-size: 4rem; /* Ajustez la taille du texte */
 }
+.title{
+  margin-top: 100px;
+}
 
 .projects-container {
     display: flex;

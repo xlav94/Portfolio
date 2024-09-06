@@ -29,9 +29,9 @@ function NavBar() {
       <nav className='navbar common-background'>
         <div className='container'>
         <div className='logo'> Cédric Guévremont</div> 
-          <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
-          </div>
+        <div className='menu-icon' onClick={handleClick}>
+          <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
+        </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item'>
             <NavLink to='/#about' className='nav-links'>About</NavLink>

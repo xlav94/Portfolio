@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from './Hero';
 import Skills from './Skills';
 import Project from './Project';
+import Contact from './Contact';
 
 function Home() {
   return (
@@ -16,6 +17,9 @@ function Home() {
 
         <section id='projects'>
             <Project />
+        </section>
+        <section id='contact'>
+            <Contact />
         </section>
     
     </div>

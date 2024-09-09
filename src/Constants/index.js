@@ -53,7 +53,7 @@ const projectName= [
     name: 'Robotix',
     description: 'App with java',
     language: 'java',
-    link: ''
+    link: 'https://github.com/rimaboujenane/Devoir-2255'
   },
 
   {
@@ -69,15 +69,7 @@ const projectName= [
     description: 'App with react.js',
     language: 'JavaScript',
     link: 'https://github.com/xlav94/word-find'
-  },
-  {
-    image: projectBg,
-    name: 'website',
-    description: 'App with react.js',
-    language: 'react.js',
-    link: ''
   }
-
 ]
 
 export {technologies, projectName};
